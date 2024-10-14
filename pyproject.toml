@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "local-completer-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Jarvistin <blizzardwj@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.2"
+unicorn = "^2.1.1"
+starlette = "^0.39.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
