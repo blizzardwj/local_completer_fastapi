@@ -10,6 +10,7 @@ python = "^3.11"
 fastapi = "^0.115.2"
 unicorn = "^2.1.1"
 starlette = "^0.39.2"
+requests = "^2.32.3"
 
 
 [build-system]
